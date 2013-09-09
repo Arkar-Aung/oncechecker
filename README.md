@@ -6,7 +6,7 @@ Javascript Cookie Helper .
 Usage
 =====
 
-onceChecker.init();
+		onceChecker.init();
 
 You can set these values :
 
