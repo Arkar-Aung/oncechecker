@@ -10,16 +10,16 @@ onceChecker.init();
 
 You can set these values :
 
-config = {
-	cookieName: 'something',
-	cookieValue: '123ghjk',
-	task: function(){ // if your cookie exist, do this
+		config = {
+			cookieName: 'something',
+			cookieValue: '123ghjk',
+			task: function(){ // if your cookie exist, do this
 
-	},
-	expire: 1 // number of day
-};
+			},
+			expire: 1 // number of day
+		};
 
-onceChecker.init(config);
+		onceChecker.init(config);
 
 Tips
 ====
@@ -28,5 +28,5 @@ Tips
 
 2.If you want to delete cookie manually , try with it .
 
-onceChecker.deleteCookie();
+		onceChecker.deleteCookie();
 
