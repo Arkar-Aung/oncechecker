@@ -5,7 +5,7 @@
  * This is javascript cookie helper .
  * ========================================================= */
 
-var onceChecker = {
+let onceChecker = {
 	config : {
 		cookieName : 'checkerName',
 		cookieValue : 'onceChecker',
